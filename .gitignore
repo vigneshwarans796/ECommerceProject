@@ -1,0 +1,16 @@
+# ---------- FRONTEND ----------
+ecommercefrontend/ecommerce-frontend/node_modules/
+ecommercefrontend/ecommerce-frontend/build/
+ecommercefrontend/ecommerce-frontend/.env*
+ecommercefrontend/ecommerce-frontend/.DS_Store
+ecommercefrontend/ecommerce-frontend/npm-debug.log*
+ecommercefrontend/ecommerce-frontend/yarn-error.log*
+
+# ---------- BACKEND ----------
+ecommerce-backend/target/
+ecommerce-backend/.idea/
+ecommerce-backend/*.iml
+
+# ---------- SYSTEM ----------
+.DS_Store
+Thumbs.db
