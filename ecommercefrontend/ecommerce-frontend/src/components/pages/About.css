@@ -1,0 +1,27 @@
+.About{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    background-color: white;
+
+}
+.about-container{
+    background-color: whitesmoke;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 60px;
+    border-radius: 5px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+.desc{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.1);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 2.2rem;
+
+}

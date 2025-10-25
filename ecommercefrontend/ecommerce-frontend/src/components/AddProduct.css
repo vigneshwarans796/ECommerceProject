@@ -1,0 +1,51 @@
+
+/*  should be replaced  */
+.add-product-container{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto  ;
+    height: 500px;
+    width: 500px;
+    background-color:whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align:end;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.add-product-container input{
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    /* text-align: center; */
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 5px;
+    gap: 10px;
+    transition: all 0.3s ease;
+    
+}
+.add-product-container input :focus{
+    border : 2px solid black;
+    
+}
+.add-product-container button{
+    font-size:15px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 1px solid black;
+    text-align: center;
+    transition: all 0.2s ease;
+    padding: 10px;
+
+}
+.add-product-container button:hover{
+    transform: scale(1.01);
+        color: whitesmoke;
+    background-color:black;
+
+}

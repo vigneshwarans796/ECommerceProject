@@ -1,0 +1,47 @@
+/*   chatgpt code almost perfect  */
+.product-container{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.product-card {
+  width: 300px;           /* fixed width for all cards */
+  background-color: #f8f8f8; 
+  height:auto ;
+   border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;  
+  transition:all  0.3s ease;
+} 
+.product-card:hover {
+  transform: scale(1.05);          /* card slightly grows */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);  /* subtle shadow */
+  cursor: pointer;                 /* indicates clickable / interactive */
+}
+.product-image{
+    width: 300px;
+    height: 300px;
+}
+.product-description {
+  display: -webkit-box;         /* Required for line clamping */
+  -webkit-box-orient: vertical; /* Required for line clamping */
+  -webkit-line-clamp: 2;        /* Number of lines to show */
+  overflow: hidden;              /* Hide excess text */
+ 
+}
+.product-name {
+  line-height: 1.2em;      
+  height: 2.4em;            
+  font-weight: bold;
+   display: -webkit-box;         /* Required for line clamping */
+  -webkit-box-orient: vertical; /* Required for line clamping */
+  -webkit-line-clamp: 2;        /* Number of lines to show */
+  overflow: hidden;              /* Hide excess text */
+  /* text-overflow: ellipsis;  */
+  /* adds ... */
+}
+

@@ -1,0 +1,55 @@
+.outliner{
+    padding: 0px;
+    margin-left: 500px;
+    margin-right:500px ;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+
+}
+.Contact-us{
+    margin-top: 0px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    background-color: white;
+    padding: 20px;
+    color: black
+
+}
+.Contact-us-mail{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 80px;
+    
+}
+
+.text-contact{
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    color: black;
+}
+.mail{
+     font-weight: bolder;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    padding: 8px;
+    margin:0px auto;
+    transition: all 0.3s ease;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.mail:hover{
+    background-color: brown;
+    color:whitesmoke;
+    transform: scale(1.03);
+}
+

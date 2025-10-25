@@ -1,0 +1,35 @@
+.login-container{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 50px 500px;
+    background-color: whitesmoke;
+    padding: 50px;
+     border: 1px solid black;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+.login-container input,select {
+padding: 10px;
+margin: 5px;
+border: 1px solid black;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.login-container button{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 8px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+.login-container button:hover{
+    background-color: black;
+    columns: white;
+     box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+

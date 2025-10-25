@@ -1,0 +1,21 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.search-container input{
+    width: 500px;
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 5px;
+     border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+.search-container button{
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
